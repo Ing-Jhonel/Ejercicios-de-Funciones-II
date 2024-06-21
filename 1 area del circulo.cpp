@@ -10,12 +10,12 @@ using namespace std;
 
 int main (){
 	
-	double r, a;
+	double radio, areadelcirculo;
 	cout << "Indique el radio del circulo: ";
-	cin >> r;
+	cin >> radio;
 	double pi;
 	pi=M_PI;
-	a=pi*pow(r, 2);
-	cout << "El area del circulo es: " << a << endl;
+	areadelcirculo=pi*pow(radio, 2);
+	cout << "El area del circulo es: " << areadelcirculo << endl;
 	return 0;
 }
