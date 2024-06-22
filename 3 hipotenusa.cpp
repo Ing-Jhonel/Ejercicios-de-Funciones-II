@@ -5,17 +5,17 @@ using namespace std;
 //utilizando la fórmula de Pitágoras. Solicita al usuario los valores de los catetos y utiliza la función
 //sqrt de cmath para calcular la raíz cuadrada de la suma de los cuadrados de los catetos. Muestra el
 //resultado de la hipotenusa calculada.
-//ENTRADA|| a: primer cateto  b: segundo cateto
+//ENTRADA|| cateto1: primer cateto  cateto2: segundo cateto
 //SALIDA|| c: hipotenusa
 
 int main(){
 	
-	double a, b, c;
+	double cateto1, cateto2, hipotenusa;
 	cout << "Indique un cateto: ";
-	cin >> a;
+	cin >> cateto1;
 	cout << "Indique el otro cateto: ";
-	cin >> b;
-	c = sqrt(a*a + b*b);
-	cout << "La hipotenusa es: " << c << endl;
+	cin >> cateto2;
+	hipotenusa = sqrt(cateto1*cateto1 + cateto2*cateto2);
+	cout << "La hipotenusa es: " << hipotenusa << endl;
 	return 0;
 }
