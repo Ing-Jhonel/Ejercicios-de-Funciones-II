@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+#include <cmath> // para operaciones matematicas mas avanzadas
 using namespace std;
 // Cálculo del Área de un Círculo: Implementa un programa que calcule el área de un círculo dado su
 // radio. Utiliza la constante M_PI de la librería cmath para obtener el valor de pi. Solicita al usuario el
@@ -17,8 +17,8 @@ int main (){
 	cin >> radio;
 	cout << endl;
 	double pi;
-	pi=M_PI;
-	areadelcirculo=pi*pow(radio, 2);
+	pi=M_PI; // el M_PI con el <cmath> da el valor de pi (3.1415...)
+	areadelcirculo=pi*pow(radio, 2); // el pow da la potencia de n numero a m potencia (n a la m) (radio a la 2)
 	cout << "--------------------------------" << endl << endl;
 	cout << "El area del circulo es: " << areadelcirculo << endl;
 	return 0;
