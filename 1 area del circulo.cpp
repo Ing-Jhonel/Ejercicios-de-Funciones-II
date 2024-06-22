@@ -5,8 +5,8 @@ using namespace std;
 // radio. Utiliza la constante M_PI de la librería cmath para obtener el valor de pi. Solicita al usuario el
 //radio del círculo y utiliza la función pow de cmath para calcular el cuadrado del radio. Muestra el
 // resultado del área calculada.
-// ENTRADAªº  r: radio   
-//SALIDAºº  a: area del circulo
+// ENTRADA||  r: radio   
+//SALIDA||  a: area del circulo
 
 int main (){
 	

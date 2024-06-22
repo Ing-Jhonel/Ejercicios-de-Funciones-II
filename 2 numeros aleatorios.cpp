@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
 	
-	srand(time(0)); 
+	srand(time(0)); // con esto el generador de numeros inicia desde 0 
 	int cantidadnumeros, limitemaximo, numerogenerado;
 	cout << "GENERADOR DE NUMEROS ALEATORIOS" << endl;
 	cout << "--------------------------------" << endl << endl;
@@ -24,7 +24,9 @@ int main() {
 	cout << endl;
 	
  	for(int i=1; i<=cantidadnumeros; i++){
-		numerogenerado = rand() % limitemaximo + 1;
+		numerogenerado = rand() % limitemaximo + 1; // le agregamos un variable a cada numero generado, para que se muestre
+		// el rand() es predeterminado. El % (limitemaximo + 1) dice que entre el numero que hemos puesto a iniciar antes (0)
+		// hasta el limite maximo + 1 ej: 0 < numerogenerado <= limitemaximo + 1  ||  0 < numero generado < limitemaximo
 		cout << numerogenerado << " ";
 	}
     return 0;
