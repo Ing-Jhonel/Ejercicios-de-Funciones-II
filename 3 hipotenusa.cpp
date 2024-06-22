@@ -17,7 +17,7 @@ int main(){
 	cin >> cateto1;
 	cout << "Indique el otro cateto: ";
 	cin >> cateto2;
-	hipotenusa = sqrt(cateto1*cateto1 + cateto2*cateto2);
+	hipotenusa = sqrt(cateto1*cateto1 + cateto2*cateto2); // con el sqrt hallamos la raiz de un numero
 	cout << endl;
 	cout << "--------------------------------" << endl << endl;
  	cout << "La hipotenusa es: " << hipotenusa << endl;
