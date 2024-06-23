@@ -18,6 +18,8 @@ int main(){
 	cin >> b;
 	cout << "Indique el termino independiente (c): ";
 	cin >> c;
+	cout << endl;
+	cout << "("<< a << ")" << "x^2" << " + ("<< a << ")" << "x" << " + ("<< a << ")" << endl << endl;
 	discriminante=b*b - 4*a*c; //mantengo como variable la discriminante, para no estar copiando la misma operacion
 	if(discriminante<0){ //si la discriminante es menor a cero, sus raices no son reales
 		cout << "Sus raices no son numeros reales. Intente de nuevo." << endl;
