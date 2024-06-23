@@ -12,6 +12,8 @@ int main(){
 	
 	// usamos el sqrt para sacar la raiz cuadratica de un numero
 	int a, b, c, raiz1, raiz2, discriminante;
+	cout << "ENCUENTRE LAS RAICES DE SU ECUACION CUADRATICA" << endl;
+	cout << "**********************************************" << endl << endl;
 	cout << "Indique el termino cuadratico (a): ";
 	cin >> a; 
 	cout << "Indique el termino lineal (b): ";
@@ -19,8 +21,9 @@ int main(){
 	cout << "Indique el termino independiente (c): ";
 	cin >> c;
 	cout << endl;
-	cout << "("<< a << ")" << "x^2" << " + ("<< a << ")" << "x" << " + ("<< a << ")" << endl << endl;
+	cout << "Ecuacion cuadratica: " << "("<< a << ")" << "x^2" << " + ("<< a << ")" << "x" << " + ("<< a << ")" << endl << endl;
 	discriminante=b*b - 4*a*c; //mantengo como variable la discriminante, para no estar copiando la misma operacion
+	cout << "--------------------------------" << endl << endl;
 	if(discriminante<0){ //si la discriminante es menor a cero, sus raices no son reales
 		cout << "Sus raices no son numeros reales. Intente de nuevo." << endl;
 	} else if(discriminante==0){ //si la discriminante es cero, sus raices son iguales
