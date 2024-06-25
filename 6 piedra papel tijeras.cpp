@@ -15,7 +15,10 @@ int main(){
 	
 	// 1 Piedra, 2 papel, 3 tijeras
 	int i=1;
+	cout << "JUEGA YANKENPO CON LA COMPUTADORA" << endl;
+	cout << "*********************************" << endl << endl;
 	do{
+		cout << "_______________________" << endl << endl;
 		cout << i << ". ROUND." << endl << endl;
 		cout << "Ingrese su jugada: ";
 		cin >> s;
@@ -40,15 +43,19 @@ int main(){
 			vspc=vspc+1;
 		}
 		i++;
-		cout << "Resultado: " << resultado << endl;
+		cout << "*Resultado: " << resultado << endl;
 		cout << endl;
 		
 	} while(vs!=3 && vspc!=3);
+	cout << "_______________________" << endl << endl;
 	if(vs==3){
-		cout << "Fin del juego. Gano el usuario.";
+		resultado= "Gano el usuario.";
 	} else{
-		cout << "Fin del juego. Gano la computadora.";
+		resultado= "Gano la computadora.";
 	}
+	cout << "********************************" << endl;
+	cout << "Fin del juego. " << resultado << endl;
+	cout << "********************************" << endl;
 	return 0;
 	
 }
