@@ -43,8 +43,7 @@ int main() {
     cout << "Indique el termino independiente (c): ";
     cin >> c;
     cout << endl;
-    cout << "Ecuacion cuadratica: " << a << "x^2 + " << b << "x + " << c << endl << endl;
-
+	cout << "Ecuacion cuadratica: " << "("<< a << ")" << "x^2" << " + ("<< b << ")" << "x" << " + ("<< c << ")" << endl << endl;
     // Llamada a la función que calcula las raíces
     calcularRaices(a, b, c, raiz1, raiz2, sonReales);
 

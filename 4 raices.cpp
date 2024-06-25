@@ -21,7 +21,7 @@ int main(){
 	cout << "Indique el termino independiente (c): ";
 	cin >> c;
 	cout << endl;
-	cout << "Ecuacion cuadratica: " << "("<< a << ")" << "x^2" << " + ("<< a << ")" << "x" << " + ("<< a << ")" << endl << endl;
+	cout << "Ecuacion cuadratica: " << "("<< a << ")" << "x^2" << " + ("<< b << ")" << "x" << " + ("<< c << ")" << endl << endl;
 	discriminante=b*b - 4*a*c; //mantengo como variable la discriminante, para no estar copiando la misma operacion
 	cout << "--------------------------------" << endl << endl;
 	if(discriminante<0){ //si la discriminante es menor a cero, sus raices no son reales
