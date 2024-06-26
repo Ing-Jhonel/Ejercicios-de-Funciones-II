@@ -16,12 +16,17 @@ int main(){
 	// 1 Piedra, 2 papel, 3 tijeras
 	int i=1;
 	cout << "JUEGA YANKENPO CON LA COMPUTADORA" << endl;
-	cout << "*********************************" << endl << endl;
+	cout << "*********************************" << endl;
+	cout << "(Papel, Papel, Tijera)" << endl << endl;
 	do{
 		cout << "_______________________" << endl << endl;
 		cout << i << ". ROUND." << endl << endl;
 		cout << "Ingrese su jugada: ";
 		cin >> s;
+		while (s!="Piedra" && s!="Papel" && s!="Tijera"){
+			cout << "Intente de nuevo: ";
+			cin >> s;
+		}
 		cout << endl;
 		spc = rand() % 3+1;
 		if (spc==1){
