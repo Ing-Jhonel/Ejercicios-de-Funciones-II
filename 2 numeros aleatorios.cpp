@@ -15,10 +15,10 @@ int main() {
 	srand(time(0)); // con esto el generador de numeros inicia desde 0 
 	int cantidadnumeros, limitemaximo, numerogenerado;
 	cout << "GENERADOR DE NUMEROS ALEATORIOS" << endl;
-	cout << "--------------------------------" << endl << endl;
+	cout << "*******************************" << endl << endl;
 	cout << "Ingrese el limite maximo: ";
 	cin >> limitemaximo;
-		
+	cout << endl;
 	cout << "Indique cuantos numeros quiere ver entre el 0 y " << limitemaximo << " : ";
 	cin >> cantidadnumeros;
 	cout << endl;
